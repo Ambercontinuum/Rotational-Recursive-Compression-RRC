@@ -77,13 +77,6 @@ Or: Credit the creator and collaborators.
 
 ---
 
-License
-
-TBD — default is MIT unless otherwise specified. All contributors and forks must cite Amber Anson as originator.
-
-
----
-
 Contact / Community
 
 For collaboration, citation requests, or academic coordination, reach out to:
