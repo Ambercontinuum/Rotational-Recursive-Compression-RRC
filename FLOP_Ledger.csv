@@ -1,0 +1,5 @@
+Stage,Old (FLOPs),Savings,New (FLOPs)
+Arithmetic (4 rows),48.0,-4,44.0
+Logical rotations,32.0,-16,16.0
+Symmetric reductions,,-6,
+Total,112.0,-26,94.0
