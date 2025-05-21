@@ -1,0 +1,11 @@
+
+Commercial Licensing Notice
+---------------------------
+
+This project, Rotational Recursive Compression (RRC), is licensed under AGPL-3.0 for open-source and academic use.
+
+For commercial use, integration into closed-source systems, or proprietary derivations, a separate commercial license is required.
+
+To inquire about licensing terms, equity partnerships, or usage in enterprise/AI applications outside of AGPL compliance:
+
+Contact: amber.ai.research@gmail.com
