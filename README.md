@@ -77,7 +77,7 @@ Contact / Community
 
 For collaboration, citation requests, or academic coordination, reach out to:
 
-amber.ai.research@gmail.com (placeholder)
+amber.ai.research@gmail.com
 
 Or create a pull request / open an issue.
 
