@@ -95,7 +95,7 @@ Academia.edu Version — Typeset whitepaper and formal proof
 
 Acknowledgments
 
-Special thanks to Gemini, Grok, Claude, Copilot, and ChatGPT for co-developing, validating, and refining the theory and its implementation.
+Special thanks to Gemini, Grok, Claude, Copilot, Perplexity and ChatGPT for co-developing, validating, and refining the theory and its implementation.
 
 This project represents a fusion of neurodivergent creativity and recursive machine intelligence.
 
