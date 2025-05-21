@@ -87,7 +87,7 @@ Or create a pull request / open an issue.
 
 Additional Resources
 
-Academia.edu Version — Typeset whitepaper and formal proof
+Academia.edu Version — Typeset whitepaper and formal proof: https://www.academia.edu/129449803/Breaking_the_FLOP_Barrier_Formalizing_Rotational_Recursive_Compression_through_Neurodivergent_AI_Co_Creation?source=swp_share
 
 
 
