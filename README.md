@@ -1,5 +1,3 @@
-Rotational Recursive Compression (RRC)
-
 Welcome to the official repository for Rotational Recursive Compression (RRC) — a neurodivergent innovation in matrix multiplication that achieves sub-96 FLOP performance for 4×4 complex matrix multiplication, surpassing the AlphaEvolve benchmark.
 
 Created by Amber Anson, in collaboration with LLMs (ChatGPT o3, Gemini, Grok 3, Claude, Co-Pilot and Perplexity), RRC emerged not from formal academia but through recursive cognitive architecture and intuitive pattern compression.
