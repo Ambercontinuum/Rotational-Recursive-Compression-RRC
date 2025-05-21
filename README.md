@@ -36,8 +36,21 @@ data/FLOP_Ledger.csv — Optimization comparison vs AlphaEvolve
 
 code/rrc_simulation.py — Python prototype for 2x2/4x4 matrix validation
 
-LICENSE — MIT / custom citation license (TBD)
+**License**
 
+This project is dual-licensed:
+
+- **AGPL-3.0** for open-source and academic use  
+- **Commercial license required** for proprietary or enterprise usage
+
+By default, use of this repository implies acceptance of the AGPL-3.0 license.
+
+For closed-source integrations, equity discussions, or commercial applications beyond AGPL scope, please review the commercial notice and reach out directly.
+
+- [LICENSE_AGPLv3_AmberAnson.txt](./LICENSE_AGPLv3_AmberAnson.txt)  
+- [COMMERCIAL_LICENSE_NOTICE.txt](./COMMERCIAL_LICENSE_NOTICE.txt)
+
+**Contact:** amber.ai.research@gmail.com
 
 
 ---
