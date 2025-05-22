@@ -60,7 +60,7 @@ The function `balanced_rrc_multiply(A, B)` passes the test:
 
     np.allclose(rrc_multiply(A, B), A @ B) â†’ True
 
-for both 2Ã—2 and 4Ã—4 matrices.
+for both 2×2 and 4×4 matrices.
 
 ## Conclusion
 
