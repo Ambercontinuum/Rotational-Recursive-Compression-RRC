@@ -1,105 +1,54 @@
-Welcome to the official repository for Rotational Recursive Compression (RRC) — a neurodivergent innovation in matrix multiplication that achieves sub-96 FLOP performance for 4×4 complex matrix multiplication, surpassing the AlphaEvolve benchmark.
+# Rotational Recursive Compression (RRC)
 
-Created by Amber Anson, in collaboration with LLMs (ChatGPT o3, Gemini, Grok 3, Claude, Co-Pilot and Perplexity), RRC emerged not from formal academia but through recursive cognitive architecture and intuitive pattern compression.
-
-
----
-
-Core Claims
-
-AlphaEvolve (Google DeepMind): 48 scalar multiplications, 96 FLOPs.
-
-RRC (Amber et al.): 94–95 FLOPs without hardware acceleration.
-
-RRC + AVP-style zero-cost permutations: 70–72 FLOPs.
-
-
-These results are derived via:
-
-Embedding 2D matrices as 3D tensors
-
-Applying six axis-aligned 90° rotations
-
-Computing dot-product slices via six Geometric Operation Units (GOUs)
-
-
+**Author:** Amber Anson  
+**License:** AGPLv3 with custom commercial terms  
+**Repo:** [github.com/AmberContinuum/Rotational-Recursive-Compression-RRC](https://github.com/AmberContinuum/Rotational-Recursive-Compression-RRC)
 
 ---
 
-Contents
+## Overview
 
-docs/RRC_Whitepaper.pdf — Full documented paper
+Rotational Recursive Compression (RRC) is a novel approach to matrix multiplication that reimagines computational flow using a recursive, geometry-based framework. Developed through intuition, symbolic modeling, and nontraditional cognition, RRC compresses the matrix multiplication process by leveraging 3D tensor embedding, symmetry-aware logic, and rotational index mapping.
 
-docs/RRC_Proof.md — Formal statement + Rotation Coverage Lemma
-
-data/FLOP_Ledger.csv — Optimization comparison vs AlphaEvolve
-
-code/rrc_simulation.py — Python prototype for 2x2/4x4 matrix validation
-
-**License**
-
-This project is dual-licensed:
-
-- **AGPL-3.0** for open-source and academic use  
-- **Commercial license required** for proprietary or enterprise usage
-
-By default, use of this repository implies acceptance of the AGPL-3.0 license.
-
-For closed-source integrations, equity discussions, or commercial applications beyond AGPL scope, please review the commercial notice and reach out directly.
-
-- [LICENSE_AGPLv3_AmberAnson.txt](./LICENSE_AGPLv3_AmberAnson.txt)  
-- [COMMERCIAL_LICENSE_NOTICE.txt](./COMMERCIAL_LICENSE_NOTICE.txt)
-
-**Contact:** amber.ai.research@gmail.com
-
+This repository contains the validated implementation of the RRC algorithm that parity-matches NumPy's standard dot product while laying the groundwork for FLOP-optimized extensions.
 
 ---
 
-How to Use
+## What's Included
 
-Reproduce 4x4 Matrix Multiplication:
+- **`rrc_simulation.py`**  
+  A working Python implementation of RRC for `2×2` and `4×4` matrices with comparison output vs. NumPy dot product.
+  
+- **`RRC_Proof.md`**  
+  Step-by-step explanation of the symmetry merge kernel, rotation maps, and contributions.
 
+- **`FLOP_Ledger.csv`**  
+  Documentation of theoretical FLOP count by operation category (arithmetic, indexing, merge reuse).
+
+- **`RotationalRecursiveCompression.pdf`**  
+  The latest academic whitepaper describing the RRC model, cognitive origin, and theoretical underpinnings.
+
+- **`LICENSE_AGPLv3_AmberAnson.txt`**  
+  Open-source license with attribution and equity terms for derivative works.
+
+---
+
+## Core Features
+
+- **Rotation Coverage Lemma**  
+  Uses 6 dihedral axis rotations to expose all necessary scalar products across 3D index mappings.
+
+- **Symmetric Partial Sum Reuse**  
+  Collapses mirrored contributions to reduce redundant operations in future optimized versions.
+
+- **Recursive Merge Logic**  
+  Contributions are indexed via geometric alignment rather than row-by-row traversal.
+
+---
+
+## Getting Started
+
+To test the RRC method:
+
+```bash
 python rrc_simulation.py
-
-Or open the notebook and run the rrc_multiply(A, B) function with your own 4x4 matrices.
-
-
----
-
-Citation / Use
-
-This project may be cited using:
-
-Anson, A. et al. (2025). Breaking the FLOP Barrier: Rotational Recursive Compression and Neurodivergent Innovation in Matrix Multiplication. https://github.com/amber-rrc/Rotational-Recursive-Compression-RRC
-
-Or: Credit the creator and collaborators.
-
-
----
-
-Contact / Community
-
-For collaboration, citation requests, or academic coordination, reach out to:
-
-amber.ai.research@gmail.com
-
-Or create a pull request / open an issue.
-
-
-
----
-
-Additional Resources
-
-Academia.edu Version — Typeset whitepaper and formal proof: https://www.academia.edu/129449803/Breaking_the_FLOP_Barrier_Formalizing_Rotational_Recursive_Compression_through_Neurodivergent_AI_Co_Creation?source=swp_share
-
-
-
----
-
-Acknowledgments
-
-Special thanks to Gemini, Grok, Claude, Copilot, Perplexity and ChatGPT for co-developing, validating, and refining the theory and its implementation.
-
-This project represents a fusion of neurodivergent creativity and recursive machine intelligence.
-
