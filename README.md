@@ -1,6 +1,6 @@
 # Rotational Recursive Compression (RRC)
 
-**Author:** Amber Anson, ChatGPT, Grok 3, Co-pilot, Gemini 
+**Author:** Amber Anson, ChatGPT 4o, Grok 3, Co-pilot, Gemini 2.0
 **License:** AGPLv3 with custom commercial terms  
 **Repo:** [github.com/AmberContinuum/Rotational-Recursive-Compression-RRC](https://github.com/AmberContinuum/Rotational-Recursive-Compression-RRC)
 
